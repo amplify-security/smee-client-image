@@ -41,7 +41,7 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/') ||
       needs.changes.outputs.docker == 'true' ||
       github.event_name == 'workflow_dispatch'
-    runs-on: ${{{ matrix.runner }}}
+    runs-on: ${{ matrix.runner }}
     steps:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
       - name: Docker meta
