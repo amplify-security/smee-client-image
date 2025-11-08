@@ -61,7 +61,7 @@ jobs:
         uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
         with:
           path: cache-mount
-          key: cache-mount-${{ matrix.arch }}-${{ hashFiles(Dockerfile)) }}
+          key: cache-mount-${{ matrix.arch }}-${{ hashFiles('Dockerfile')) }}
       - name: Restore Docker cache mounts
         uses: reproducible-containers/buildkit-cache-dance@5b81f4d29dc8397a7d341dba3aeecc7ec54d6361 # v3.3.0
         with:
