@@ -1,2 +1,2 @@
-# smee-client
-probot/smee-client ready-to-run in Docker
+# smee-client image
+A minimal, secure docker image for [probot/smee-client](https://github.com/probot/smee-client).
