@@ -4,6 +4,7 @@
 [![Release](https://github.com/amplify-security/smee-client-image/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/amplify-security/amplify-security/actions/workflows/release.yml)
 [![Docker Pulls](https://img.shields.io/docker/pulls/amplifysecurity/smee-client?logo=docker)](https://hub.docker.com/r/amplifysecurity/smee-client)
 [![Image Size](https://img.shields.io/docker/image-size/amplifysecurity/smee-client?logo=docker)](https://hub.docker.com/r/amplifysecurity/smee-client)
+[![Image Version](https://img.shields.io/docker/v/amplifysecurity/smee-client?sort=semver&logo=docker)](https://hub.docker.com/r/amplifysecurity/smee-client/tags)
 
 A minimal, secure docker image for [probot/smee-client](https://github.com/probot/smee-client). Currently, the
 [`amplifysecurity/smee-client`](https://hub.docker.com/r/amplifysecurity/smee-client)
